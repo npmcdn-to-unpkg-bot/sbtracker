@@ -1,0 +1,76 @@
+
+body {
+    font-family: monospace;
+    font-size: 10px;
+    background: whitesmoke;
+    margin: 0;
+}
+
+.sandbox-list {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sandbox {
+    width: 200px;
+    height: 80px;
+    position: relative;
+    background: white;
+    margin: 5px;
+    box-shadow: 0px 2px 4px -3px black;
+}
+
+.prop-url {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.prop-url a {
+    font-weight: bold;
+    color: #999 !important;
+    padding: 3px;
+    display: inline-block;
+}
+
+.prop-id {
+    display: block;
+    background: #EEE;
+    color: #999;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.prop-branch {
+    float: right;
+    margin: 3px;
+    display: inline-block;
+}
+
+.prop-owner {
+    height: 11px;
+    font-size: 10px;
+    padding: 0;
+    background: none;
+    border: none;
+    font-family: mono;
+    width: 40%;
+}
+
+.label {
+    margin: 4px;
+    display: inline-block;
+    font-size: 8px;
+    background: #999;
+    border-radius: 3px;
+    padding: 1px 2px;
+    color: white;
+    vertical-align: middle;
+    width: 22px;
+    text-align: center;
+}
+
+.label.active {
+    background: #178CD3;
+}
